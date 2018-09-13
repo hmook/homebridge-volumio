@@ -14,7 +14,7 @@ module.exports = function (homebridge) {
 function VOLUMIO(log, config) {
     this.log = log;
     this.name = config.name || "Volumio";
-    this.stateUrl = "http://volumio.local/api/v1/getstate";
+    this.stateUrl = "http://marantz-zolder.local/api/v1/getstate";
 
     this.volume = {};
     this.mute = {};
